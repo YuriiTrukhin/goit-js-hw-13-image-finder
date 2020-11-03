@@ -1,0 +1,44 @@
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+body {
+  text-align: center;
+}
+.stats {
+  display: flex;
+  max-height: 50px;
+}
+.stats-item {
+  margin-right: 10px;
+}
+img {
+  width: 300px;
+  height: 150px;
+}
+.lis-item {
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+.photo-card {
+  border-radius: 5px;
+  border: solid 1px lightgray;
+  width: 400px;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+ul {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+}
+.is-hidden {
+  display: none;
+}
+.button {
+  margin-bottom: 100px;
+}
